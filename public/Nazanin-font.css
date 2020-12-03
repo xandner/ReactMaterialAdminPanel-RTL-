@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Nazanin';
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.woff') format('woff'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Nazanin';
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin-Bold.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin-Bold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin-Bold.woff') format('woff'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
