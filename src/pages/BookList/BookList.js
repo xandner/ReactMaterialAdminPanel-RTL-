@@ -33,7 +33,16 @@ const datatableData = [
     },
 ]
 
-const BookList = () => {
+
+const BookList = (props) => {
+
+    const onEdit=(item)=>{
+        props.history.push({
+            pathname:"/app/EditBook",
+            state:item
+        })
+    }
+
     const onDelete = (item) => {
         let foundIndex = -1;
         books.forEach((itemBook, index) => {
@@ -58,7 +67,7 @@ const BookList = () => {
                 <IconButton onClick={() => onDelete(item)}>
                     <DeleteIcon/>
                 </IconButton>,
-                <IconButton>
+                <IconButton onClick={()=>onEdit(item)}>
                     <EditIcon/>
                 </IconButton>,
             ]

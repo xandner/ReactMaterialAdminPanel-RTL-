@@ -9,6 +9,7 @@ import classnames from "classnames";
 import {Box, IconButton, Link} from '@material-ui/core'
 import Icon from '@mdi/react'
 import TestPage from '../../pages/Test/TestPage'
+import EditBook from "../../pages/BookList/EditBook";
 
 //icons
 import {
@@ -60,6 +61,7 @@ function Layout(props) {
               <Route path="/app/tables" component={Tables} />
               <Route path="/app/notifications" component={Notifications} />
               <Route path="/app/BookList" component={BookList} />
+              <Route path="/app/EditBook" component={EditBook} />
               <Route
                 exact
                 path="/app/ui"
